@@ -42,7 +42,7 @@ describe('BN.js/Arithmetic', function () {
       assert.equal(b.add(a).toString(16), '-1');
     });
   });
-
+  
   describe('.iaddn()', function () {
     it('should allow a sign change', function () {
       var a = new BN(-100);
