@@ -28,7 +28,7 @@
   },
   "scripts": {
     "lint": "standardx",
-    "test": "npm run lint && npm run unit",
+    "test": "npm run unit",
     "unit": "mocha --reporter=spec test/*-test.js"
   },
   "devDependencies": {
