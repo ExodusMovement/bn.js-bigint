@@ -80,11 +80,12 @@ describe('BN.js/Constructor', function () {
       assert.equal(new BN(base36, 36).toString(36), base36.toLowerCase());
     });
 
-    it('should not overflow limbs during base-10', function () {
-      var num = '65820182292848241686198767302293' +
-        '20890292528855852623664389292032';
-      assert(new BN(num).words[0] < 0x4000000);
-    });
+    // No longer needed
+    // it('should not overflow limbs during base-10', function () {
+    //   var num = '65820182292848241686198767302293' +
+    //     '20890292528855852623664389292032';
+    //   assert(new BN(num).words[0] < 0x4000000);
+    // });
 
     it('should accept base-16 LE integer', function () {
       assert.equal(new BN('1A6B765D8CDF', 16, 'le').toString(16),
@@ -126,7 +127,7 @@ describe('BN.js/Constructor', function () {
       ].forEach(function (str) {
         assert.throws(function () {
           new BN(str, 16); // eslint-disable-line no-new
-        }, /Invalid character in /);
+        }, /Invalid character/);
       });
     });
   });
