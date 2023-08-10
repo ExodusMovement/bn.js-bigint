@@ -1,0 +1,108 @@
+Seed: f4aecbad439e8f2e74ab50eefc25442f
+Benchmarking: create-10
+bn.js-bigint#create-10 x 4,340,190 ops/sec ±0.50% (7 runs sampled)
+bn.js#create-10 x 1,643,334 ops/sec ±0.08% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#create-10
+========================
+Benchmarking: create-hex
+bn.js-bigint#create-hex x 3,458,819 ops/sec ±0.11% (9 runs sampled)
+bn.js#create-hex x 2,693,160 ops/sec ±0.86% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#create-hex
+========================
+Benchmarking: toString-10
+bn.js-bigint#toString-10 x 4,343,614 ops/sec ±0.58% (8 runs sampled)
+bn.js#toString-10 x 200,107 ops/sec ±0.74% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#toString-10
+========================
+Benchmarking: toString-hex
+bn.js-bigint#toString-hex x 6,732,897 ops/sec ±0.11% (9 runs sampled)
+bn.js#toString-hex x 4,154,244 ops/sec ±0.59% (8 runs sampled)
+------------------------
+Fastest is bn.js-bigint#toString-hex
+========================
+Benchmarking: add
+bn.js-bigint#add x 6,441,136 ops/sec ±0.17% (9 runs sampled)
+bn.js#add x 19,971,847 ops/sec ±0.08% (9 runs sampled)
+------------------------
+Fastest is bn.js#add
+========================
+Benchmarking: sub
+bn.js-bigint#sub x 6,423,559 ops/sec ±0.14% (9 runs sampled)
+bn.js#sub x 18,454,631 ops/sec ±0.09% (9 runs sampled)
+------------------------
+Fastest is bn.js#sub
+========================
+Benchmarking: mul
+bn.js-bigint#mul x 5,661,940 ops/sec ±0.22% (6 runs sampled)
+bn.js#mul x 6,797,926 ops/sec ±1.13% (8 runs sampled)
+------------------------
+Fastest is bn.js#mul
+========================
+Benchmarking: mul-jumbo
+bn.js-bigint#mul-jumbo x 185,895 ops/sec ±0.46% (9 runs sampled)
+bn.js#mul-jumbo x 10,326 ops/sec ±0.08% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#mul-jumbo
+========================
+Benchmarking: sqr
+bn.js-bigint#sqr x 5,663,829 ops/sec ±0.09% (9 runs sampled)
+bn.js#sqr x 6,850,703 ops/sec ±0.07% (9 runs sampled)
+------------------------
+Fastest is bn.js#sqr
+========================
+Benchmarking: div
+bn.js-bigint#div x 1,399,685 ops/sec ±0.68% (9 runs sampled)
+bn.js#div x 1,278,495 ops/sec ±0.11% (7 runs sampled)
+------------------------
+Fastest is bn.js-bigint#div
+========================
+Benchmarking: mod
+bn.js-bigint#mod x 2,710,887 ops/sec ±1.92% (9 runs sampled)
+bn.js#mod x 1,311,091 ops/sec ±0.46% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#mod
+========================
+Benchmarking: mul-mod k256
+bn.js-bigint#mul-mod k256 x 183,866 ops/sec ±0.25% (6 runs sampled)
+bn.js#mul-mod k256 x 2,625,989 ops/sec ±0.50% (9 runs sampled)
+------------------------
+Fastest is bn.js#mul-mod k256
+========================
+Benchmarking: pow k256
+bn.js-bigint#pow k256 x 575 ops/sec ±0.45% (9 runs sampled)
+bn.js#pow k256 x 8,075 ops/sec ±0.72% (8 runs sampled)
+------------------------
+Fastest is bn.js#pow k256
+========================
+Benchmarking: invm k256
+bn.js-bigint#invm k256 x 19,679 ops/sec ±1.08% (8 runs sampled)
+bn.js#invm k256 x 21,563 ops/sec ±0.97% (8 runs sampled)
+------------------------
+Fastest is bn.js#invm k256
+========================
+Benchmarking: gcd
+bn.js-bigint#gcd x 51,423 ops/sec ±1.68% (9 runs sampled)
+bn.js#gcd x 60,515 ops/sec ±0.36% (9 runs sampled)
+------------------------
+Fastest is bn.js#gcd
+========================
+Benchmarking: egcd
+bn.js-bigint#egcd x 19,658 ops/sec ±0.28% (9 runs sampled)
+bn.js#egcd x 12,613 ops/sec ±0.72% (9 runs sampled)
+------------------------
+Fastest is bn.js-bigint#egcd
+========================
+Benchmarking: bitLength
+bn.js-bigint#bitLength x 2,108,769 ops/sec ±0.07% (9 runs sampled)
+bn.js#bitLength x 781,457,238 ops/sec ±4.09% (9 runs sampled)
+------------------------
+Fastest is bn.js#bitLength
+========================
+Benchmarking: toArray
+bn.js-bigint#toArray x 29,936 ops/sec ±1.02% (9 runs sampled)
+bn.js#toArray x 917,849 ops/sec ±0.75% (9 runs sampled)
+------------------------
+Fastest is bn.js#toArray
