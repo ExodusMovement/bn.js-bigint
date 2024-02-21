@@ -1,3 +1,9 @@
+## Changes
+
+- Use bigint
+
+# Original README
+
 # <img src="./logo.png" alt="bn.js" width="160" height="160" />
 
 > BigNum in pure javascript
