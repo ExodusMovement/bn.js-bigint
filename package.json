@@ -1,6 +1,6 @@
 {
-  "name": "bn.js",
-  "version": "5.2.1",
+  "name": "@exodus/bn.js",
+  "version": "5.3.0",
   "description": "Big number implementation in pure javascript",
   "keywords": [
     "BN",
